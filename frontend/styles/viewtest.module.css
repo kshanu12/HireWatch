@@ -1,0 +1,65 @@
+.pageContainer {
+    height: 100vh;
+    background-color: #efefef;
+  }
+  .main{
+    width: 95.5%;
+    height: 93%;
+    /* background-color: transparent; */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+  }
+.grid{
+    display: grid;
+    /* background-color: red; */
+    height: 92%;
+    width: 97%;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+    grid-gap: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  background-color:white;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination p {
+  margin: 0 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-weight: 500;
+}
+.pagination button.disabled {
+  background-color: #ccc; /* Disabled button background color */
+  color: black;
+}
+
+  

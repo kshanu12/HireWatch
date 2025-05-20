@@ -1,0 +1,17 @@
+.loaderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    font-size: 30px;
+    margin-top: 3%;
+}
+.loaderContainer img{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    margin-top: 3%;
+}

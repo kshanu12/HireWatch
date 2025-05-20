@@ -1,0 +1,127 @@
+.main {
+    /* background: linear-gradient(to bottom,#234ea3,#061cc7,#021598,#00007e);
+     */
+     background-color: white;
+    height: 94%;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .first{
+    /* border-bottom: 1px solid white; */
+    height: 33%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .second{
+    /* border-bottom: 1px solid white; */
+    height: 38%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: rgb(235, 245, 255); */
+  }
+
+  .inside{
+    height: 88%;
+    width: 99%;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid rgb(240, 240, 240);
+    background: rgb(240, 240, 240);
+    border-radius: 5px;
+  }
+  .inside h2{
+    font-family: Roboto, sans-serif;
+    color: #161515;
+    font-size: 22px;
+    font-weight: 500;
+    margin-right: 67%;
+    margin-bottom: 1%;
+  }
+  
+  .inside h3{
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 5px;
+
+  }
+  .inside p{
+    color: rgb(0, 0, 0);
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    padding-left: 15px;
+  }
+  .one{
+    width: 88%;
+    height: 18%;
+    border-radius: 5px;
+    background-color:#fff;
+  }
+  .two{
+    width: 88%;
+    height: 18%;
+    border-radius: 5px;
+    background-color:#fff;
+  }
+  .thirdT{
+    width: 88%;
+    height: 18%;
+    background-color:#fff;
+  }
+  .camera{
+    height: 295;
+    width: 350;
+    background-color: rgb(255, 255, 255);
+
+  }
+  .timer{
+     font-weight: bold;
+  }
+  .third{
+    height: 6%;
+    width: 95%;
+    background-color:rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    color: rgb(31, 30, 30);
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+  .btn{
+    display: flex;
+  }
+  .submit{
+    width: 100px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid #2181ff;
+    color: #2181ff ;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .submit:hover{
+    background-color:#2181ff ;
+    color: #fff;
+    font-weight: 600;
+  }

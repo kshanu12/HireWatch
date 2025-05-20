@@ -1,0 +1,17 @@
+.pageContainer{
+    height: 100vh;
+    background-color: #efefef;
+}
+
+.main{
+    position: fixed;
+    width: 95.3%;
+    height: 92.6%;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+  

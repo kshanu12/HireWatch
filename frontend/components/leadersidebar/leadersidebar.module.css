@@ -1,0 +1,66 @@
+.sidenav{
+    background: linear-gradient(
+        to bottom,
+        rgb(26, 156, 255),
+        rgb(0, 145, 255),
+        rgb(0, 145, 255),
+        rgb(0, 89, 156)
+      );
+    width: 5em;
+    height: 100vh;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:15px;   
+    padding-top: 10%;
+    margin-bottom: 4%;
+}
+.button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: rgb(0, 89, 156);
+}
+
+.dashboard{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    transform:scale(0.8);
+    color: #fff;
+    font-size: 40px;
+    margin: 4%;
+}
+
+.hashedin{
+    position: fixed;
+    bottom: 5%;
+    transform: rotate(-90deg);
+    width: 100px;
+    height: 68px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.hashedin span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.smalltext{
+    font-size: 14px;
+    font-weight: 400;
+}

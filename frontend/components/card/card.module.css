@@ -1,0 +1,24 @@
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  padding: 20px 10px 16px 16px;
+  height: 38%;
+  width: 43%;
+  margin-top: 5%;
+}
+
+.cardtitle {
+  font-size: 20px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+}
+
+.carddescription {
+  font-size: 14px;
+  color: #666666;
+  margin-left: 1%;
+}
+
+

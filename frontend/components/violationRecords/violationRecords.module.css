@@ -1,0 +1,9 @@
+.container {
+    background-color: #fff;
+  }
+  
+  .container__head {
+    padding-bottom: 1rem;
+    background-color: #fff;
+    color: rgb(120, 146, 201);
+  }

@@ -1,0 +1,12 @@
+.dashboard{
+    height: 100vh;
+    background: #efefef;
+}
+
+.candidateList{
+    height: calc(100vh - 4rem);
+    width: calc(100vw - 5rem);
+    position: absolute;
+    right: 0;
+    top: 4rem;
+}

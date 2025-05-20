@@ -1,0 +1,71 @@
+.violation__record {
+    display: grid;
+    grid-template-columns: 15% 20% 40% 25%;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px 10px;
+    margin: 0.5em auto;
+    width: 98%;
+    color: #696969;
+}
+
+.violation__record , .violation__record_detail {
+    background-color: #fff;
+}
+
+.violation__record .violation__record_status {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.8rem;
+    letter-spacing: 0.1rem;
+    border-radius: 50px;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+}
+
+.violation__record_send {
+    background-color: rgb(209, 245, 245);
+    color: rgb(4, 139, 139);
+}
+
+.candidate__record_view {
+    background-color: rgb(243, 212, 212);
+    color: rgb(139, 4, 4);
+}
+
+.button{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.center_image_btn{
+    display: flex;
+    justify-content: center;
+}
+
+.violation__record_type{
+    font-size: 30px;
+}
+
+._Multiple_Person_Detected{
+  color: #4734b3;
+}
+
+._Face_Not_Detected{
+  color: #b33434;
+}
+
+._Mobile_Phone_Detected{
+  color: #0c8f0c;
+}
+
+._Prohibited_Object_Detected{
+  color: #b37c34;
+}
+
+._Attention_Required{
+  color: #bc44da;
+}

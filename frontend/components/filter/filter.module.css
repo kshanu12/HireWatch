@@ -1,0 +1,42 @@
+.filter {
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  /* padding-top: 5px;
+  padding-bottom: 5px; */
+  height: 40px;
+
+  border: 1px solid #234ae3;
+}
+
+.btn:hover {
+  background-color: #c4d6ff;
+  color: #fff !important;
+  font-weight: bolder !important;
+}
+
+.filter_image {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.combined_input{
+  display: flex;
+}
+
+.slider{
+  width: 300px;
+}
+
+.slider_input{
+  width: 30px;
+  padding: 0 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}

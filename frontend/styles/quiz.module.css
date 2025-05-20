@@ -1,0 +1,57 @@
+.mainPage{
+    height: 100vh;
+}
+.cardcontainer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 93.5%;
+    width: 80%;
+    background-color: #efefef;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+.cardcontainer::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .cardcontainer::-webkit-scrollbar-thumb {
+    width: 26px;
+    border-radius: 13px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+  }
+  
+  .cardcontainer::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 10px;
+  }
+  
+  .cardcontainer:hover {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .cardcontainer {
+    -webkit-text-fill-color: black;
+  }.cardcontainer::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .cardcontainer::-webkit-scrollbar-thumb {
+    width: 26px;
+    border-radius: 13px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+  }
+  
+  .cardcontainer::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 10px;
+  }
+  
+  .cardcontainer:hover {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .cardcontainer {
+    -webkit-text-fill-color: black;
+  }

@@ -1,0 +1,106 @@
+.candidate__record {
+  display: grid;
+  grid-template-columns: 5% 20% 25% repeat(3, 15%) 5%;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  padding: 22px 10px;
+  margin: .7em auto;
+  width: 98%;
+  color: #696969;
+}
+
+.candidate__record:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.candidate__record,
+.candidate__record_detail {
+  background-color: #fff;
+}
+
+.candidate__record .candidate__record_status {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.8rem;
+  letter-spacing: 0.1rem;
+  border-radius: 50px;
+  font-weight: bold;
+  width: fit-content;
+  margin: auto;
+}
+
+/* .candidate__record_send {
+  background-color: rgb(209, 245, 245);
+  color: rgb(4, 139, 139);
+}
+
+.candidate__record_view {
+  background-color: rgb(243, 212, 212);
+  color: rgb(139, 4, 4);
+} */
+
+.candidate__record_actions {
+  background-color: #fff;
+  display: flex;
+  justify-content: baseline;
+}
+
+.candidate__record_action {
+  border-style: none;
+  padding-right: 0.5rem;
+  font-size: large;
+}
+
+.btn{
+  font-size: 25px;
+  border-radius: 20px;
+  font-weight: 900;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+.Applied{
+  background-color: rgb(236, 212, 250);
+  color: rgb(128, 19, 179);
+}
+
+.Link_Sent{
+  background-color: rgb(250, 241, 212);
+  color: rgb(148, 115, 9);
+}
+
+.In_Progress{
+  background-color: rgb(209, 245, 245);
+  color: rgb(4, 139, 139);
+}
+
+.Submitted{
+  background-color: rgb(250, 226, 212);
+  color: rgb(196, 84, 19);
+}
+
+.Accepted{
+  background-color: rgb(160, 236, 183);
+  color: rgb(49, 156, 27);
+}
+
+.Rejected{
+  background-color: rgb(243, 212, 212);
+  color: rgb(139, 4, 4);
+}
+
+.Send_Test_Link{
+  color: rgb(179, 19, 19);
+}
+
+.View_Live{
+  color: #026406;
+}
+
+.View_Report{
+  color: #4734b3;
+}

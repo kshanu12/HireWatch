@@ -1,0 +1,40 @@
+.mainPage{
+    height: 100vh;
+}
+.cardcontainer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 93.5%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    height: 98%;
+    width: 99%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card img {
+    height: 10rem;
+    margin-bottom: 1%;
+  }
+  
+  .card h4 {
+    font-size: 28px;
+  }
+  
+  .card p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgb(145, 145, 145); 
+  }
+  

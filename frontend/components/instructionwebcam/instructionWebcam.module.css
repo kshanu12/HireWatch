@@ -1,0 +1,8 @@
+.videoContainer {
+  position: relative;
+}
+
+.video {
+  transform: scaleX(-1);
+  /* Mirror the video horizontally */
+}

@@ -1,0 +1,24 @@
+.mainCard{
+    display: flex;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    width: 92%;
+}
+
+.violationList{
+    height: calc(100vh - 4rem);
+    width: calc(100vw - 5rem);
+    position: absolute;
+    right: 0;
+}
+
+.spiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

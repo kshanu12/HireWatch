@@ -1,0 +1,22 @@
+.centerModal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    margin-top: -10%;
+  }
+  
+  .centerButton { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    font-size: 20px;
+    width: 20%;
+    height: 8%;
+  }
+
+  .centerButton:hover{
+    font-weight: 700;
+  }

@@ -1,0 +1,28 @@
+.pageContainer {
+  height: 100vh;
+  background-color: #efefef;
+}
+
+.maincard {
+  width: 95.5%;
+  height: 93%;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.display_block{
+  display: block;
+  width: 100%;
+  margin-left: 1%;
+  min-height:70vh ;
+}
+
+.display_none{
+  display: none;
+}
